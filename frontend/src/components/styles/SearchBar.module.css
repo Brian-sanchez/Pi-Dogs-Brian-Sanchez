@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  transition: 0.5s;
+  align-items: center;
+  position: absolute;
+  margin-top: -115px;
+  margin-left: 170px;
+}
+
+form {
+  margin-top: -2px;
+  margin-left: 25px;
+}
+
+input {
+  font-size: 15px;
+  width: 200px;
+  height: 42px;
+  padding: 0 10px;
+  border-radius: 25px 0 0 25px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  outline: none;
+}
+  
+.search {
+  border: 2px solid white;
+  cursor: pointer;
+  left: -4px;
+  border-radius: 0 25px 25px 0;
+  width: 65px;
+  height: 46px;
+  background-color: black;
+  color: #fff;
+}
+
+.search p {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.container .search:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+  
+.refresh {
+  width: 100px;
+  height: 48px;
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid white;
+  background: transparent;
+  margin-left: 550px;
+}
+
+.refresh:hover {
+  background-color: white;
+  color: black;
+}
+  

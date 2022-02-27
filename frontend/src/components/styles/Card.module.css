@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+
+.container {
+  margin-top: 20px;
+}
+
+.container .card {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 100%;
+  margin-top: 15px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  border-radius: 25px;
+  padding-bottom: 10px;
+  box-sizing: content-box;
+  color: white;  
+  background: #1C1C1C;
+}
+
+.container .card:hover {
+  transform: scale(1);
+  box-shadow: 5px 5px 20px rgba(54, 63, 60, 0.637);
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 0.1px;
+  padding: 1px;
+  padding-bottom: 4px;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.imgcard {
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.card p {
+  font-size: 13px;
+  font-family: "Readex Pro", sans-serif, "Arial";
+  margin: 2px;
+  padding: 3px;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+}

@@ -1,0 +1,18 @@
+.bkg{
+  margin-top: 100px;
+  display: block;
+  align-items: center;  
+  text-align: center;
+  margin-bottom: 130px;
+}
+  
+.loadingGif {
+  height: 350px;
+}
+    
+.loading{
+  color: black;
+  margin-top: -165px;
+  position: relative;
+  font-size: 20px;
+}

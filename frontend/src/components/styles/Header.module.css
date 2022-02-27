@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+.container {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  position: relative;
+  height: 20vh;
+  border-bottom-left-radius: 10% 50%;
+  border-bottom-right-radius: 10% 50%;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  box-shadow: none;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+  align-items: flex-end;
+}
